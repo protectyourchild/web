@@ -156,6 +156,10 @@ main {
 	min-width: 400px;
 }
 
+.hidden {
+	display: none;
+}
+
 .relevantArticles {
 	max-width: 100%;
 	background-color: white;
@@ -290,6 +294,10 @@ footer h1 {
 		display: none;
 	}
 
+	.hidden {
+		display: block;
+	}
+
 }
 
 @media (min-width: 330px) and (max-width: 900px) {
@@ -324,6 +332,10 @@ footer h1 {
 		font-size: 38px;
 	}
 
+	.hidden {
+		display: block;
+	}
+
 }
 
 @media (min-width: 330px) and (max-width: 840px) {
@@ -335,6 +347,10 @@ footer h1 {
 		grid-template-areas: 
 		"footerTitle"
 		"footerNav"; 
+	}
+
+	.hidden {
+		display: block;
 	}
 
 }
